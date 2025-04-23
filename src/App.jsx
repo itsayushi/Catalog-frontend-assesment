@@ -24,7 +24,7 @@ export default function App() {
       <div
         className={`
           ${isFullscreen ? 'fixed top-0 left-0 w-screen h-screen z-[9999] bg-white' : 'w-[800px] h-[600px]'}
-          rounded-xl shadow-lg p-4 flex flex-col overflow-auto transition-all duration-300
+          rounded-xl shadow-lg p-4 flex flex-col transition-all duration-300
         `}
       >
         <BalanceCard />
